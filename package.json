@@ -1,0 +1,63 @@
+{
+  "name": "modrinth-api-types",
+  "version": "1.0.0",
+  "description": "Full typings for the Modrinth REST API",
+  "keywords": [
+    "modrinth",
+    "modrinth api",
+    "minecraft",
+    "modded minecraft",
+    "modded mc"
+  ],
+  "homepage": "https://github.com/Noderinth/modrinth-api-types#readme",
+  "exports": {
+    "./v2": {
+      "import": "./v2.mjs",
+      "require": "./v2.js",
+      "types": "./v2.d.ts"
+    },
+    "./v3": {
+      "import": "./v3.mjs",
+      "require": "./v3.js",
+      "types": "./v3.d.ts"
+    },
+    "./payloads": {
+      "types": "./payloads/index.d.ts",
+      "require": "./payloads/index.js",
+      "import": "./payloads/index.mjs"
+    },
+    "./payloads/v*": {
+      "types": "./payloads/v*/index.d.ts",
+      "require": "./payloads/v*/index.js",
+      "import": "./payloads/v*/index.mjs"
+    },
+    "./rest": {
+      "types": "./rest/index.d.ts",
+      "require": "./rest/index.js",
+      "import": "./rest/index.mjs"
+    },
+    "./rest/v*": {
+      "types": "./rest/v*/index.d.ts",
+      "require": "./rest/v*/index.js",
+      "import": "./rest/v*/index.mjs"
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/Noderinth/modrinth-api-types/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Noderinth/modrinth-api-types.git"
+  },
+  "license": "ISC",
+  "author": "Harvle",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.14",
+    "typescript": "^5.8.3"
+  }
+}

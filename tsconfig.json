@@ -1,0 +1,28 @@
+{
+    "compileOnSave": true,
+    "include": [
+        "global.ts",
+        "v2.ts",
+        "v3.ts",
+        "payloads/**/*.ts",
+        "rest/**/*.ts"
+    ],
+    "compilerOptions": {
+        "alwaysStrict": true,
+        "lib": [
+            "ESNext"
+        ],
+        "module": "CommonJS",
+        "noUnusedParameters": true,
+        "sourceMap": true,
+        "declaration": true,
+        "declarationMap": true,
+        "noUnusedLocals": true,
+        "outDir": "dist",
+        "removeComments": false,
+        "target": "ESNext",
+        "strictNullChecks": true,
+        "preserveConstEnums": true,
+        "exactOptionalPropertyTypes": true
+    }
+}

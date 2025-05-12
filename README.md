@@ -1,6 +1,6 @@
 > # ‼️ THIS PROJECT IS A WORK IN PROGRESS! ‼️
 >
-> There is only payload and routes support for Version 2 currently. Request body typings and Version 3 will be coming in a future update.
+> There is only support for Version 2 currently. Version 3 will be coming in a future update.
 
 # Modrinth API Types
 

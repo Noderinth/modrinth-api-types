@@ -6,8 +6,10 @@
     "modrinth",
     "modrinth api",
     "minecraft",
-    "modded minecraft",
-    "modded mc"
+    "modded-minecraft",
+    "modded-mc",
+    "labrinth",
+    "labrinth-api"
   ],
   "homepage": "https://github.com/Noderinth/modrinth-api-types#readme",
   "exports": {
@@ -15,11 +17,6 @@
       "import": "./v2.mjs",
       "require": "./v2.js",
       "types": "./v2.d.ts"
-    },
-    "./v3": {
-      "import": "./v3.mjs",
-      "require": "./v3.js",
-      "types": "./v3.d.ts"
     },
     "./payloads": {
       "types": "./payloads/index.d.ts",
@@ -49,6 +46,12 @@
     "type": "git",
     "url": "git+https://github.com/Noderinth/modrinth-api-types.git"
   },
+  "funding": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/Noderinth"
+    }
+  ],
   "license": "ISC",
   "author": "Harvle",
   "type": "commonjs",
@@ -59,5 +62,8 @@
   "devDependencies": {
     "@types/node": "^22.15.14",
     "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "typedoc": "^0.28.4"
   }
 }

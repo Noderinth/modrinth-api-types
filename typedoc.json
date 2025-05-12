@@ -1,0 +1,20 @@
+{
+    "$schema": "https://typedoc.org/schema.json",
+    "entryPoints": [
+        "./v2.ts",
+        "./v3.ts"
+    ],
+    "out": "./docs",
+    "name": "Modrinth API Types",
+    "navigationLinks": {
+        "GitHub": "https://github.com/Noderinth/modrinth-api-types",
+        "Discord": "https://discord.noderinth.dev",
+        "Sponsor": "https://github.com/sponsors/Noderinth"
+    },
+    "includeVersion": true,
+    "hideGenerator": true,
+    "titleLink": "https://api-types.noderinth.dev",
+    "hostedBaseUrl": "https://api-types.noderinth.dev",
+    "useHostedBaseUrlForAbsoluteLinks": true,
+    "favicon": "./img/favicon.png"
+}

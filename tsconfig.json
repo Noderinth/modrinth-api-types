@@ -3,7 +3,6 @@
     "include": [
         "global.ts",
         "v2.ts",
-        "v3.ts",
         "payloads/**/*.ts",
         "rest/**/*.ts"
     ],

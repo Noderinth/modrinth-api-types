@@ -34,14 +34,14 @@ export type APITeamMember = {
      * - `VIEW_ANALYTICS`: `1n << 8n`
      * - `VIEW_PAYOUTS`: `1n << 9n`
      * 
-     * @ Note: Requires authorization to view.
+     * Note: Requires authorization to view.
      */
     permissions: number;
 
     /**
      * Whether or not the user has accepted to be on the team.
      * 
-     * @ Note: Requires authorization to view.
+     * Note: Requires authorization to view.
      */
     accepted: boolean;
 

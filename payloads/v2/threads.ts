@@ -23,21 +23,21 @@ export interface APIThreadMessageBodyText extends APIThreadMessageBodyBase {
     /**
      * The actual message text.
      * 
-     * @ Only present for `text` message type.
+     * Only present for `text` message type.
      */
     body: string;
 
     /**
      * Whether the message is only visible to moderators.
      * 
-     * @ Only present for `text` message type.
+     * Only present for `text` message type.
      */
     private: boolean;
 
     /**
      * The ID of the message being replied to by this message.
      * 
-     * @ Only present for `text` message type.
+     * Only present for `text` message type.
      */
     replying_to: string | null;
 };
@@ -47,14 +47,14 @@ export interface APIThreadMessageBodyStatusChange extends APIThreadMessageBodyBa
     /**
      * The old status of the project.
      * 
-     * @ Only present for `status_change` message type.
+     * Only present for `status_change` message type.
      */
     old_status: ProjectStatus;
 
     /**
      * The new status of the project.
      * 
-     * @ Only present for `status_change` message type.
+     * Only present for `status_change` message type.
      */
     new_status: ProjectStatus;
 };
@@ -154,7 +154,7 @@ export type APIThreadMessage = {
     /**
      * The contents of the message.
      * 
-     * @ Fields will vary depending on message type.
+     * Fields will vary depending on message type.
      */
     body: APIThreadMessageBody;
 

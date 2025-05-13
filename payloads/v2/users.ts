@@ -14,8 +14,8 @@ export type APIUser = {
     /**
      * The user’s email.
      * 
-     * @ Only displayed if requesting your own account.
-     * @ Requires `USER_READ_EMAIL` PAT scope.
+     * Only displayed if requesting your own account.
+     * Requires `USER_READ_EMAIL` PAT scope.
      */
     email: string | null;
 
@@ -27,7 +27,7 @@ export type APIUser = {
     /**
      * Various data relating to the user’s payouts status.
      * 
-     * @ Only displayed if requesting your own account.
+     * Only displayed if requesting your own account.
      */
     payout_data: APIUserPayoutData | null;
 
@@ -63,35 +63,35 @@ export type APIUser = {
      * - `CONTRIBUTOR`: `1n << 5n`
      * - `TRANSLATOR`: `1n << 6n`
      * 
-     * @ These are currently unused and undisplayed, and as such are subject to change.
+     * These are currently unused and undisplayed, and as such are subject to change.
      */
     badges: number;
 
     /**
      * A list of authentication providers you have signed up for.
      * 
-     * @ Only displayed if requesting your own account.
+     * Only displayed if requesting your own account.
      */
     auth_providers: string[] | null;
 
     /**
      * Whether your email is verified.
      * 
-     * @ Only displayed if requesting your own account.
+     * Only displayed if requesting your own account.
      */
     email_verified: boolean | null;
 
     /**
      * Whether you have a password associated with your account.
      * 
-     * @ Only displayed if requesting your own account.
+     * Only displayed if requesting your own account.
      */
     has_password: boolean | null;
 
     /**
      * Whether you have TOTP two-factor authentication connected to your account.
      * 
-     * @ Only displayed if requesting your own account.
+     * Only displayed if requesting your own account.
      */
     has_totp: boolean | null;
 
@@ -106,7 +106,7 @@ export type APIUserPayoutData = {
     /**
      * The payout balance available for the user to withdraw. 
      * 
-     * @ You cannot modify this in a `PATCH` request.
+     * You cannot modify this in a `PATCH` request.
      */
     balance: number;
 
